@@ -6,11 +6,14 @@ body{font:17px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 a
 h1{font-size:32px;line-height:1.2;margin-bottom:4px}h2{font-size:23px;margin-top:44px;padding-top:12px;border-top:1px solid #e3e3e8}h3{font-size:18px;margin-top:26px}
 a{color:#0066cc}.lead{font-size:19px;color:#515154}.tip{background:#f2f5fb;border-left:4px solid #3478f6;padding:10px 14px;border-radius:8px;margin:16px 0}
 nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{font-weight:600}code{font:15px ui-monospace,monospace}
+figure{margin:20px 0}figure img{width:100%;height:auto;border-radius:10px;border:1px solid #d2d2d7;display:block}figcaption{font-size:14px;color:#6e6e73;margin-top:6px}
+.map{position:relative}.map span{position:absolute;transform:translate(-50%,-50%);background:#ff9f0a;color:#000;font:700 13px/24px -apple-system,sans-serif;width:24px;height:24px;border-radius:50%;text-align:center;box-shadow:0 1px 4px rgba(0,0,0,.4)}
 @media (max-width:560px){nav ol{columns:1}}
-@media (prefers-color-scheme:dark){body{color:#f5f5f7;background:#111}a{color:#6cb2ff}h2{border-color:#2c2c30}.lead{color:#a1a1a6}.tip{background:#1b2230;border-color:#5a95ff}}
+@media (prefers-color-scheme:dark){figure img{border-color:#333}figcaption{color:#a1a1a6}body{color:#f5f5f7;background:#111}a{color:#6cb2ff}h2{border-color:#2c2c30}.lead{color:#a1a1a6}.tip{background:#1b2230;border-color:#5a95ff}}
 </style>
 </head><body>
 <h1>Character Studio Beginner Guide</h1>
+<p style="font-size:14px;color:#86868b">Screenshots are from version 1.0.0 (570). Your screen may look slightly different, depending on your iPad and Interface size.</p>
 <p class="lead">Everything you need to make your first 3D character, from a ball of clay to a finished, animated scene.</p>
 <p>New to 3D? Read <a href="#start">Getting started</a> and <a href="#first">Your first character</a>, then come back to the other sections when you need them. Press and hold any button in the app to see what it does.</p>
 
@@ -51,6 +54,9 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 <div class="tip">Undo is always there: tap the curved arrow in the top bar, or tap with two fingers. Tap with three fingers to redo.</div>
 
 <h2 id="screen">2. Finding your way around</h2>
+<figure><div class="map"><img src="images/01-sculpt.jpg" alt="The Character Studio screen in Sculpt mode">
+<span style="left:21%;top:3%">1</span><span style="left:52%;top:3%">2</span><span style="left:90%;top:3%">3</span><span style="left:2.3%;top:20%">4</span><span style="left:97.6%;top:20%">5</span><span style="left:50%;top:7.5%">6</span><span style="left:50%;top:88%">7</span><span style="left:4%;top:94.5%">8</span><span style="left:86%;top:94.5%">9</span></div>
+<figcaption>1 File, View, Edit, Create · 2 stage and tool switches · 3 Notes, Undo/Redo, Settings and ⋯ · 4 left rail · 5 right rail · 6 brush size and strength · 7 bottom bar of brushes · 8 status line · 9 Nodules, Cinema, Frame</figcaption></figure>
 <ul>
 <li><b>Top bar, left:</b> <b>File</b>, <b>View</b>, <b>Edit</b> and <b>Create</b> menus.</li>
 <li><b>Top bar, middle:</b> the stage switch and the tools for the current stage.</li>
@@ -87,6 +93,7 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 </ol>
 
 <h2 id="files">5. Projects and saving</h2>
+<figure><img src="images/03-file.jpg" alt="The File menu open" loading="lazy"><figcaption>The File menu.</figcaption></figure>
 <p>Open <b>File</b> for:</p>
 <ul>
 <li><b>New</b>, <b>Open</b> and <b>Save</b>: your projects.</li>
@@ -98,6 +105,7 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 
 <h2 id="sculpt">6. Sculpt</h2>
 <p>Sculpting is like working with digital clay. Pick a brush from the bottom bar and stroke the model with Pencil.</p>
+<figure><img src="images/01-sculpt.jpg" alt="Sculpt mode with the brush bar" loading="lazy"><figcaption>Sculpt: brushes along the bottom, size and strength at the top.</figcaption></figure>
 <h3>The main brushes</h3>
 <ul>
 <li><b>Grab:</b> pull big areas into shape.</li>
@@ -140,10 +148,12 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 <li><b>Modifiers</b> such as Bend, Twist, Taper and Stretch reshape a whole part without changing its mesh, and you can still change them later.</li>
 <li><b>Cut hole</b> uses one closed part to cut through another.</li>
 </ul>
+<figure><img src="images/04-model.jpg" alt="Model mode" loading="lazy"><figcaption>Model mode.</figcaption></figure>
 <p>The model tool panel groups these under <b>Select</b>, <b>Edit</b>, <b>Loops</b>, <b>Make</b> and <b>Measure</b>.</p>
 
 <h2 id="parts">9. Parts and Create</h2>
 <p>A character is usually made of several <b>parts</b>: body, head, eyes, hair and so on. Tap a part in the view to make it active. The Parts panel lists them all, where you can rename, hide, lock and arrange them.</p>
+<figure><img src="images/02-create.jpg" alt="The Create menu open" loading="lazy"><figcaption>The Create menu: shapes at the top, then builders and scene items.</figcaption></figure>
 <p>The <b>Create</b> menu adds new things:</p>
 <ul>
 <li><b>Start from a shape:</b> PolySphere, Sphere, Cube, Cylinder, Cone, Torus, Capsule, Tube, Plane, Circle and Ring Plane.</li>
@@ -153,6 +163,8 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 
 <h2 id="paint">10. Paint</h2>
 <p>In <b>Build › Paint</b>, paint colour straight onto the model with Pencil. Pick a colour, then set the brush size and strength just like in Sculpt.</p>
+<figure><img src="images/05-paint.jpg" alt="Paint mode with the Colours panel" loading="lazy"><figcaption>Paint: tools along the bottom, colours on the right.</figcaption></figure>
+<p>The bottom bar holds the paint tools: Paint, Erase, Blur, Fill, Pick, Clear and Layers, plus your palette. In the Colours panel, <b>Paint onto</b> switches between vertex colour and a texture.</p>
 <p>The colour palette also holds <b>procedural textures</b>, patterns the app generates for you, such as noise and grain.</p>
 <p>For detailed textures, such as skin pores or printed fabric, paint on a texture instead. See <a href="#uv">UV and textures</a>.</p>
 
@@ -166,17 +178,19 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 <li><b>Check:</b> turn on <b>Checker</b> or <b>Stretch</b> to spot stretched areas, and <b>Inspect</b> to find problems.</li>
 <li><b>Bake:</b> transfer detail into colour and normal maps.</li>
 </ol>
+<figure><img src="images/06-uv.jpg" alt="The UV Editor with its five steps" loading="lazy"><figcaption>The UV Editor: 1 Mark, 2 Unwrap, 3 Arrange, 4 Check, 5 Bake.</figcaption></figure>
 <p>Then create a texture and paint on it, either on the model or on the flat layout. Texture brushes include Brush, Erase, Blur, Clone and Eyedropper. Export textures as PNG, JPG or WebP.</p>
 
 <h2 id="materials">12. Materials and Nodules</h2>
 <p>A <b>material</b> decides how a surface looks when rendered: skin, metal, glass, cloth or a flat anime colour. Set each part's material in <b>Present › Materials</b>.</p>
 <p><b>Nodules</b> is the app's material builder. Open it with <b>Nodules</b> at the bottom right.</p>
 <ul>
-<li>It opens in <b>Controls</b>, with the most useful settings first. <b>Graph</b> shows the full node graph, one tap away.</li>
+<li>It opens on <b>List</b>, with each material's main settings as sliders: look, surface, toon bands, rim and outline. <b>Graph</b> shows the full node graph, one tap away. Tap <b>Apply Settings</b> to use your changes.</li>
 <li><b>Start from recipe</b> gives you a ready-made material, such as Anime Skin, Glowing Ink or Weathered Armour.</li>
 <li>In Graph, drag a wire from one Nodule to another to connect them. With a wire in hand, tap empty space: <b>Add</b> lists only the Nodules that fit.</li>
 <li><b>Preview selected</b> shows what one Nodule produces, which helps you understand a graph.</li>
 </ul>
+<figure><img src="images/07-nodules.jpg" alt="Nodules showing the List view" loading="lazy"><figcaption>Nodules on the List view, with the material's look, surface and toon settings.</figcaption></figure>
 <div class="tip">Start from a recipe and change one setting at a time. That's the quickest way to learn what each Nodule does.</div>
 
 <h2 id="garment">13. Garment</h2>
@@ -190,13 +204,14 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 </ol>
 
 <h2 id="rig">14. Rig</h2>
-<p>A <b>rig</b> is a skeleton inside your character, so you can pose it. In <b>Animate › Rig</b>:</p>
+<p>A <b>rig</b> is a skeleton inside your character, so you can pose it. In <b>Animate › Rig</b>, the quickest start is <b>Auto rig</b>, which fits a skeleton and binds every part in one tap. Then check it with <b>Rig check</b>. To do it step by step:</p>
 <ol>
 <li><b>Skeleton:</b> fit a humanoid skeleton to your character, then drag the joints into place. Mirror copies one side to the other.</li>
 <li><b>Bind:</b> attach each part to the skeleton. The app works out how much each bone moves each area.</li>
 <li><b>Weights:</b> fix areas that move wrongly by painting weights. Red means a bone has strong control; blue means weak control.</li>
 <li><b>Pose:</b> bend bones to test the rig, and save poses you like.</li>
 </ol>
+<figure><img src="images/08-rig.jpg" alt="The Rig panel" loading="lazy"><figcaption>The Rig panel: Auto rig at the top, then Skeleton, Bind, Weights, Pose and Export.</figcaption></figure>
 <h3>Swinging hair, tails and skirts</h3>
 <p>Under <b>Secondary chains</b>, tap <b>+ Hair</b>, <b>+ Tail</b> or <b>+ Skirt</b>, then bind that part again. Later, in Animate, <b>Bake secondary motion</b> makes them swing and settle as your character moves.</p>
 <p>You can export bound parts with their skeleton as a <b>GLB</b> file for other 3D apps.</p>
@@ -209,6 +224,7 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 <li>Move the timeline's playhead later, change the pose, and key again.</li>
 <li>Tap <b>Play</b> to watch. Turn on <b>Loop</b> to repeat.</li>
 </ol>
+<figure><img src="images/09-animate.jpg" alt="Animate mode with the timeline" loading="lazy"><figcaption>Animate: the Motion panel on the left, the timeline below.</figcaption></figure>
 <ul>
 <li>You can also animate <b>parts</b>, <b>lights</b> and the <b>camera</b>, even without a rig.</li>
 <li><b>Auto-key moves</b> keys your changes as you make them.</li>
@@ -229,6 +245,8 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 <li><b>FX:</b> motion effects and FX Studio.</li>
 <li><b>Output:</b> quality, stills, video and GIF.</li>
 </ul>
+<figure><img src="images/10-present-look.jpg" alt="The Look panel" loading="lazy"><figcaption>Present › Look: Standard, Anime or Ink, with shading controls.</figcaption></figure>
+<figure><img src="images/10-present-light.jpg" alt="The Light panel" loading="lazy"><figcaption>Present › Light.</figcaption></figure>
 <p>Use <b>Create › Light</b> and <b>Create › Camera (from this view)</b> to add more lights and cameras, and arrange several characters and props together to build a full scene. <b>Cinema</b> at the bottom right shows your shot without the interface.</p>
 
 <h2 id="fx">17. FX and 3D Pen</h2>
@@ -249,6 +267,7 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 <li><b>Rig › Export:</b> bound parts with their skeleton as GLB.</li>
 <li><b>UV:</b> texture images as PNG, JPG or WebP.</li>
 </ul>
+<figure><img src="images/10-present-output.jpg" alt="The Output panel" loading="lazy"><figcaption>Present › Output.</figcaption></figure>
 <p>Exported files appear in the Files app under <b>On My iPad › Character Studio › Exports</b>, unless you choose another place.</p>
 
 <h2 id="views">19. Views and references</h2>
@@ -261,7 +280,8 @@ nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{
 </ul>
 
 <h2 id="settings">20. Settings and your layout</h2>
-<p>Tap the gear in the top bar. You can search for any setting.</p>
+<p>Tap the gear in the top bar. You can search for any setting, and <b>Beginner guide…</b> at the top opens this page.</p>
+<figure><img src="images/11-settings.jpg" alt="The Settings panel" loading="lazy"><figcaption>Settings.</figcaption></figure>
 <ul>
 <li><b>Interface:</b> interface size and layout options.</li>
 <li><b>Viewport</b>, <b>Colors</b> and <b>Lighting:</b> how the work area looks.</li>
