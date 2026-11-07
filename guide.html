@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Character Studio Beginner Guide</title>
+<style>
+body{font:17px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:32px 20px 64px;color:#1d1d1f;background:#fff}
+h1{font-size:32px;line-height:1.2;margin-bottom:4px}h2{font-size:23px;margin-top:44px;padding-top:12px;border-top:1px solid #e3e3e8}h3{font-size:18px;margin-top:26px}
+a{color:#0066cc}.lead{font-size:19px;color:#515154}.tip{background:#f2f5fb;border-left:4px solid #3478f6;padding:10px 14px;border-radius:8px;margin:16px 0}
+nav ol{columns:2;column-gap:28px;padding-left:20px}nav li{margin:2px 0}kbd,b.ui{font-weight:600}code{font:15px ui-monospace,monospace}
+@media (max-width:560px){nav ol{columns:1}}
+@media (prefers-color-scheme:dark){body{color:#f5f5f7;background:#111}a{color:#6cb2ff}h2{border-color:#2c2c30}.lead{color:#a1a1a6}.tip{background:#1b2230;border-color:#5a95ff}}
+</style>
+</head><body>
+<h1>Character Studio Beginner Guide</h1>
+<p class="lead">Everything you need to make your first 3D character, from a ball of clay to a finished, animated scene.</p>
+<p>New to 3D? Read <a href="#start">Getting started</a> and <a href="#first">Your first character</a>, then come back to the other sections when you need them. Press and hold any button in the app to see what it does.</p>
+
+<nav><h3>Contents</h3><ol>
+<li><a href="#start">Getting started</a></li>
+<li><a href="#screen">Finding your way around</a></li>
+<li><a href="#gestures">Touch and Pencil</a></li>
+<li><a href="#first">Your first character</a></li>
+<li><a href="#files">Projects and saving</a></li>
+<li><a href="#sculpt">Sculpt</a></li>
+<li><a href="#remesh">Remeshing</a></li>
+<li><a href="#model">Model</a></li>
+<li><a href="#parts">Parts and Create</a></li>
+<li><a href="#paint">Paint</a></li>
+<li><a href="#uv">UV and textures</a></li>
+<li><a href="#materials">Materials and Nodules</a></li>
+<li><a href="#garment">Garment</a></li>
+<li><a href="#rig">Rig</a></li>
+<li><a href="#animate">Animate</a></li>
+<li><a href="#present">Present: building a scene</a></li>
+<li><a href="#fx">FX and 3D Pen</a></li>
+<li><a href="#output">Output and export</a></li>
+<li><a href="#views">Views and references</a></li>
+<li><a href="#settings">Settings and your layout</a></li>
+<li><a href="#trouble">Tips and troubleshooting</a></li>
+<li><a href="#words">3D words, explained</a></li>
+</ol></nav>
+
+<h2 id="start">1. Getting started</h2>
+<p>Character Studio works on your iPad. There's no account and no internet needed, and your projects stay on your device.</p>
+<p>The app is organised in three <b>stages</b>, shown in the middle of the top bar. A character usually moves from left to right, but you can jump back at any time:</p>
+<ul>
+<li><b>Build:</b> make the character. Sculpt, Model, Paint, Garment and UV.</li>
+<li><b>Animate:</b> bring it to life. Rig and Animate.</li>
+<li><b>Present:</b> stage the finished shot. Look, Light, Camera, World, Output, Materials, Touch-up and FX.</li>
+</ul>
+<p>Tap a stage, then pick one of its tools in the second switch beside it.</p>
+<div class="tip">Undo is always there: tap the curved arrow in the top bar, or tap with two fingers. Tap with three fingers to redo.</div>
+
+<h2 id="screen">2. Finding your way around</h2>
+<ul>
+<li><b>Top bar, left:</b> <b>File</b>, <b>View</b>, <b>Edit</b> and <b>Create</b> menus.</li>
+<li><b>Top bar, middle:</b> the stage switch and the tools for the current stage.</li>
+<li><b>Top bar, right:</b> Notes, Undo and Redo, Settings (the gear) and <b>⋯</b>, which holds extras such as Help, framing, references, Customize and hiding the interface.</li>
+<li><b>Left rail:</b> your tools and Quick bar shortcuts.</li>
+<li><b>Right rail:</b> view controls: projection, camera angles, split views, lighting and display options.</li>
+<li><b>Bottom bar:</b> the brushes or tools for the mode you're in. In Sculpt it shows brushes such as Grab, Smooth, Clay and Crease.</li>
+<li><b>Bottom right:</b> <b>Nodules</b>, <b>Cinema</b> and <b>Frame</b> (which fits your model in view).</li>
+<li><b>Status line, bottom left:</b> how many vertices and faces your model has, and the app version.</li>
+</ul>
+<p>Panels can be moved, docked and shrunk. Tap <b>–</b> on a panel's title bar to shrink it, and tap again to open it.</p>
+
+<h2 id="gestures">3. Touch and Pencil</h2>
+<ul>
+<li><b>One finger on empty space:</b> orbit around the model.</li>
+<li><b>Two fingers:</b> drag to pan, pinch to zoom.</li>
+<li><b>Tap a part:</b> make it the active part.</li>
+<li><b>Apple Pencil:</b> sculpts, paints and draws. Fingers always move the view, so you can't change your model by accident.</li>
+<li><b>Two-finger tap:</b> undo. <b>Three-finger tap:</b> redo.</li>
+<li><b>Press and hold a button:</b> see what it does, without pressing it.</li>
+</ul>
+<p>Pencil pressure, double-tap and squeeze settings are in <b>Settings › Apple Pencil</b>.</p>
+
+<h2 id="first">4. Your first character</h2>
+<ol>
+<li>Tap <b>Create</b> and choose <b>Sphere</b>.</li>
+<li>In <b>Build › Sculpt</b>, pick <b>Grab</b> from the bottom bar and pull out a rough head and body shape.</li>
+<li>Turn on symmetry (the mirror icon) so both sides change together.</li>
+<li>Switch to <b>Clay</b> or <b>Clay Strips</b> to build up forms, and <b>Smooth</b> to soften them.</li>
+<li>When the shape is right, run <b>Simple Quad Remesher</b> for a clean, even mesh. See <a href="#remesh">Remeshing</a>.</li>
+<li>In <b>Build › Paint</b>, add colour.</li>
+<li>In <b>Present › Look</b>, try the <b>Anime</b> style, then <b>Present › Output</b> to save a picture.</li>
+<li>Save with <b>File › Save</b>.</li>
+</ol>
+
+<h2 id="files">5. Projects and saving</h2>
+<p>Open <b>File</b> for:</p>
+<ul>
+<li><b>New</b>, <b>Open</b> and <b>Save</b>: your projects.</li>
+<li><b>Save as…</b> to make a copy with a new name, and <b>Revert to last save</b> to throw away changes.</li>
+<li><b>Open from Files…</b> and <b>Save a copy to Files…</b> to move projects in and out of the app, for example to iCloud Drive.</li>
+<li><b>Import…</b> for OBJ, GLB, PLY and STL models, and <b>Export…</b> to send your work out.</li>
+</ul>
+<div class="tip">Projects live in the app's own storage, which you can also see in the Files app under Character Studio. Deleting the app can delete them, so keep copies of anything important.</div>
+
+<h2 id="sculpt">6. Sculpt</h2>
+<p>Sculpting is like working with digital clay. Pick a brush from the bottom bar and stroke the model with Pencil.</p>
+<h3>The main brushes</h3>
+<ul>
+<li><b>Grab:</b> pull big areas into shape.</li>
+<li><b>Smooth:</b> soften bumps.</li>
+<li><b>Inflate:</b> puff an area out, like blowing up a balloon.</li>
+<li><b>Clay</b>, <b>Clay Build</b> and <b>Clay Strips:</b> add material in layers.</li>
+<li><b>Crease:</b> cut sharp lines, such as eyelids and folds.</li>
+<li><b>Flatten</b> and <b>Plane Cut:</b> make flat surfaces and hard planes.</li>
+<li><b>Buff:</b> polish a surface.</li>
+<li><b>Pinch:</b> tighten an edge.</li>
+<li><b>Snake:</b> pull out tendrils, horns or tails.</li>
+<li><b>Mask:</b> protect areas from the other brushes.</li>
+<li><b>All:</b> see every brush.</li>
+</ul>
+<p>Brush <b>size</b> and <b>strength</b> are the sliders at the top of the view. The sliders icon there opens each brush's settings, such as falloff and lazy stroke.</p>
+<h3>Masks, hiding and symmetry</h3>
+<ul>
+<li><b>Mask</b> paints areas brushes skip. Masked areas look darker, and the status line shows how much is masked.</li>
+<li><b>Hide</b> and <b>Solo</b> let you work on one part without others in the way.</li>
+<li><b>Symmetry</b> mirrors your strokes across the middle of the model.</li>
+<li>Move, Rotate and Scale in Sculpt work on the masked area or the whole part.</li>
+</ul>
+<div class="tip">Not enough detail to sculpt? Subdivide the part, or remesh it to a higher density. More faces means finer detail, but heavier work for your iPad.</div>
+
+<h2 id="remesh">7. Remeshing</h2>
+<p>A mesh is the net of points and faces that makes up your model. After lots of sculpting it can get messy, and remeshing rebuilds it cleanly.</p>
+<ul>
+<li><b>Simple Quad Remesher:</b> rebuilds the part as tidy four-sided faces (quads) that follow its shape. Best before animating or texturing.</li>
+<li><b>Voxel Remesh:</b> rebuilds the part as an even, joined surface. Good for merging shapes while sculpting.</li>
+</ul>
+<p>Press and hold either button for its options, such as how many faces to aim for. If a result doesn't work out, your original is kept, and Undo always takes you back.</p>
+
+<h2 id="model">8. Model</h2>
+<p>Model mode is for precise shapes: you edit the mesh's points, edges and faces directly.</p>
+<ul>
+<li><b>Select</b> vertices, edges or faces. Double-tap an edge to select its whole loop.</li>
+<li><b>Extrude</b> pulls faces out to add new shapes, such as limbs.</li>
+<li><b>Inset</b>, <b>Bevel</b>, <b>Loop cut</b> and <b>Bridge</b> add and shape detail.</li>
+<li><b>Knife</b> draws a cut across the surface, and <b>Shape Cutter</b> cuts with a shape.</li>
+<li><b>Modifiers</b> such as Bend, Twist, Taper and Stretch reshape a whole part without changing its mesh, and you can still change them later.</li>
+<li><b>Cut hole</b> uses one closed part to cut through another.</li>
+</ul>
+<p>The model tool panel groups these under <b>Select</b>, <b>Edit</b>, <b>Loops</b>, <b>Make</b> and <b>Measure</b>.</p>
+
+<h2 id="parts">9. Parts and Create</h2>
+<p>A character is usually made of several <b>parts</b>: body, head, eyes, hair and so on. Tap a part in the view to make it active. The Parts panel lists them all, where you can rename, hide, lock and arrange them.</p>
+<p>The <b>Create</b> menu adds new things:</p>
+<ul>
+<li><b>Start from a shape:</b> PolySphere, Sphere, Cube, Cylinder, Cone, Torus, Capsule, Tube, Plane, Circle and Ring Plane.</li>
+<li><b>Build from:</b> insert ready-made meshes, block out a rough figure, draw curves, add 2D or 3D text, or scatter copies.</li>
+<li><b>Scene:</b> add a Light, a Camera from your current view, FX Studio effects, or Workspace Nodules.</li>
+</ul>
+
+<h2 id="paint">10. Paint</h2>
+<p>In <b>Build › Paint</b>, paint colour straight onto the model with Pencil. Pick a colour, then set the brush size and strength just like in Sculpt.</p>
+<p>The colour palette also holds <b>procedural textures</b>, patterns the app generates for you, such as noise and grain.</p>
+<p>For detailed textures, such as skin pores or printed fabric, paint on a texture instead. See <a href="#uv">UV and textures</a>.</p>
+
+<h2 id="uv">11. UV and textures</h2>
+<p>To put a flat image on a 3D model, the app needs to know how to unfold the model flat, like a cardboard box opened out. That flat layout is called a <b>UV map</b>.</p>
+<p>In <b>Build › UV</b>, follow the steps in order:</p>
+<ol>
+<li><b>Mark:</b> tap <b>Auto seams</b>, or draw seams yourself. Seams are where the model gets cut to lie flat, so hide them in less visible places.</li>
+<li><b>Unwrap:</b> flatten the pieces.</li>
+<li><b>Arrange:</b> <b>Pack</b> the pieces neatly into the square.</li>
+<li><b>Check:</b> turn on <b>Checker</b> or <b>Stretch</b> to spot stretched areas, and <b>Inspect</b> to find problems.</li>
+<li><b>Bake:</b> transfer detail into colour and normal maps.</li>
+</ol>
+<p>Then create a texture and paint on it, either on the model or on the flat layout. Texture brushes include Brush, Erase, Blur, Clone and Eyedropper. Export textures as PNG, JPG or WebP.</p>
+
+<h2 id="materials">12. Materials and Nodules</h2>
+<p>A <b>material</b> decides how a surface looks when rendered: skin, metal, glass, cloth or a flat anime colour. Set each part's material in <b>Present › Materials</b>.</p>
+<p><b>Nodules</b> is the app's material builder. Open it with <b>Nodules</b> at the bottom right.</p>
+<ul>
+<li>It opens in <b>Controls</b>, with the most useful settings first. <b>Graph</b> shows the full node graph, one tap away.</li>
+<li><b>Start from recipe</b> gives you a ready-made material, such as Anime Skin, Glowing Ink or Weathered Armour.</li>
+<li>In Graph, drag a wire from one Nodule to another to connect them. With a wire in hand, tap empty space: <b>Add</b> lists only the Nodules that fit.</li>
+<li><b>Preview selected</b> shows what one Nodule produces, which helps you understand a graph.</li>
+</ul>
+<div class="tip">Start from a recipe and change one setting at a time. That's the quickest way to learn what each Nodule does.</div>
+
+<h2 id="garment">13. Garment</h2>
+<p>Garment mode makes clothes the way real ones are made: from flat pattern pieces sewn together.</p>
+<ol>
+<li>On the <b>2D Draft Canvas</b>, draw a piece, start from a template, or make one from a mask on your model.</li>
+<li>Refine it with curve, cut, mirror, measure and snap tools.</li>
+<li>In the <b>Piece</b> panel, pick the <b>Fabric</b> and adjust its <b>Shape</b>.</li>
+<li><b>Sew</b> pairs edges together. <b>Auto-pin</b> can help.</li>
+<li><b>Place</b> the pieces around the body, then <b>Fit</b> and simulate so the cloth drapes.</li>
+</ol>
+
+<h2 id="rig">14. Rig</h2>
+<p>A <b>rig</b> is a skeleton inside your character, so you can pose it. In <b>Animate › Rig</b>:</p>
+<ol>
+<li><b>Skeleton:</b> fit a humanoid skeleton to your character, then drag the joints into place. Mirror copies one side to the other.</li>
+<li><b>Bind:</b> attach each part to the skeleton. The app works out how much each bone moves each area.</li>
+<li><b>Weights:</b> fix areas that move wrongly by painting weights. Red means a bone has strong control; blue means weak control.</li>
+<li><b>Pose:</b> bend bones to test the rig, and save poses you like.</li>
+</ol>
+<h3>Swinging hair, tails and skirts</h3>
+<p>Under <b>Secondary chains</b>, tap <b>+ Hair</b>, <b>+ Tail</b> or <b>+ Skirt</b>, then bind that part again. Later, in Animate, <b>Bake secondary motion</b> makes them swing and settle as your character moves.</p>
+<p>You can export bound parts with their skeleton as a <b>GLB</b> file for other 3D apps.</p>
+
+<h2 id="animate">15. Animate</h2>
+<p>Animation is a series of poses over time. Each saved pose is a <b>key frame</b>, and the app fills in the motion between them.</p>
+<ol>
+<li>In <b>Animate › Animate</b>, pose your character.</li>
+<li>Tap <b>Key frame</b>.</li>
+<li>Move the timeline's playhead later, change the pose, and key again.</li>
+<li>Tap <b>Play</b> to watch. Turn on <b>Loop</b> to repeat.</li>
+</ol>
+<ul>
+<li>You can also animate <b>parts</b>, <b>lights</b> and the <b>camera</b>, even without a rig.</li>
+<li><b>Auto-key moves</b> keys your changes as you make them.</li>
+<li><b>Timing</b> controls how motion eases between keys: holds, snaps and impacts.</li>
+<li>The timeline has a <b>Pose Timeline</b> with picture cards, a track view and a filmstrip. Press and hold a card to duplicate, mirror, copy or delete it.</li>
+<li><b>Secondary motion</b> adds swinging hair, tails and skirts. Set stiffness, damping and gravity, then tap <b>Bake secondary motion</b>. Bake again after changing the animation.</li>
+</ul>
+
+<h2 id="present">16. Present: building a scene</h2>
+<p>Present turns your character into a finished shot. Each tool in the switch opens its own panel:</p>
+<ul>
+<li><b>Look:</b> the render style. <b>Standard</b> is realistic, <b>Anime</b> gives cel shading, and <b>Ink</b> is a manga look. It also controls shading bands, line art and outlines.</li>
+<li><b>Light:</b> studio and scene lights. Try a preset rig first, then adjust it.</li>
+<li><b>Camera:</b> frame your shot, choose a lens, and save camera views.</li>
+<li><b>World:</b> sky, ground and fog.</li>
+<li><b>Materials:</b> each part's render material.</li>
+<li><b>Touch-up:</b> draw on top of the finished render.</li>
+<li><b>FX:</b> motion effects and FX Studio.</li>
+<li><b>Output:</b> quality, stills, video and GIF.</li>
+</ul>
+<p>Use <b>Create › Light</b> and <b>Create › Camera (from this view)</b> to add more lights and cameras, and arrange several characters and props together to build a full scene. <b>Cinema</b> at the bottom right shows your shot without the interface.</p>
+
+<h2 id="fx">17. FX and 3D Pen</h2>
+<p><b>FX Studio</b>, in Create or Present › FX, makes effects such as sparks, fire, smoke, clouds, lightning, shockwaves, auras, slashes, speed lines and trails.</p>
+<ol>
+<li>Pick a preset and tap <b>Create preset asset</b>.</li>
+<li>Tap <b>Place on timeline</b>. It starts at the playhead.</li>
+<li>Drag the clip to move it, or drag its end to change how long it lasts.</li>
+<li>Open it in Nodules to customise it.</li>
+</ol>
+<p>These are stylised effects, not real physics simulations.</p>
+<p><b>3D Pen</b> draws lines in 3D with your Pencil: on a surface, following a bone, or flat on screen. It's great for hand-drawn anime lines and effects.</p>
+
+<h2 id="output">18. Output and export</h2>
+<ul>
+<li><b>Present › Output:</b> render pictures, video, GIFs and turntables, which orbit the camera around your model.</li>
+<li><b>File › Export…:</b> models in formats such as OBJ and GLB, for other 3D apps.</li>
+<li><b>Rig › Export:</b> bound parts with their skeleton as GLB.</li>
+<li><b>UV:</b> texture images as PNG, JPG or WebP.</li>
+</ul>
+<p>Exported files appear in the Files app under <b>On My iPad › Character Studio › Exports</b>, unless you choose another place.</p>
+
+<h2 id="views">19. Views and references</h2>
+<ul>
+<li>The <b>right rail</b> switches between perspective and orthographic views, front, side, top and other angles, and split screens.</li>
+<li><b>View</b> in the top bar has display options: shaded or wireframe, viewport materials, the floor grid, and the <b>View Inspector</b>, which holds the viewport lighting.</li>
+<li><b>Guides</b> show body proportions to sculpt against.</li>
+<li><b>References:</b> add pictures as an overlay, behind the model, on a board, or as 3D planes in the scene.</li>
+<li><b>Notes</b> lets you sketch and write on the canvas.</li>
+</ul>
+
+<h2 id="settings">20. Settings and your layout</h2>
+<p>Tap the gear in the top bar. You can search for any setting.</p>
+<ul>
+<li><b>Interface:</b> interface size and layout options.</li>
+<li><b>Viewport</b>, <b>Colors</b> and <b>Lighting:</b> how the work area looks.</li>
+<li><b>Navigation</b> and <b>Apple Pencil:</b> how touch and Pencil behave.</li>
+<li><b>Setups:</b> save your display, layout and brushes as a named setup, and star one to open with.</li>
+<li><b>Customize layout</b>, under <b>⋯</b>, moves, resizes and hides panels and buttons, and picks your Quick bar shortcuts.</li>
+<li><b>About, privacy and licenses</b> shows the app version, privacy policy, support and licenses.</li>
+</ul>
+
+<h2 id="trouble">21. Tips and troubleshooting</h2>
+<ul>
+<li><b>A brush does nothing:</b> part of the model may be masked. Check the status line, and clear the mask from the Quick bar.</li>
+<li><b>Can't see your model:</b> tap <b>Frame</b> at the bottom right.</li>
+<li><b>The app feels slow:</b> the model may have too many faces. Check the status line, and remesh or work at a lower subdivision level.</li>
+<li><b>Lost your panels:</b> use <b>Settings › Reset</b>, or load a saved setup.</li>
+<li><b>Changed something by accident:</b> undo with a two-finger tap.</li>
+<li><b>Something's wrong:</b> email <a href="mailto:characterstudio3dworkspace@gmail.com">characterstudio3dworkspace@gmail.com</a> with your iPad model and the app version from Settings › About. See <a href="support.html">Support</a>.</li>
+</ul>
+
+<h2 id="words">22. 3D words, explained</h2>
+<dl>
+<dt><b>Mesh</b></dt><dd>The net of points and faces that forms a 3D model.</dd>
+<dt><b>Vertex, edge, face</b></dt><dd>A point, a line between two points, and a flat surface between edges.</dd>
+<dt><b>Quad</b></dt><dd>A four-sided face. Clean quads bend and animate well.</dd>
+<dt><b>Topology</b></dt><dd>How the faces of a mesh are laid out.</dd>
+<dt><b>Remesh</b></dt><dd>Rebuild a mesh with new, cleaner faces.</dd>
+<dt><b>Subdivide</b></dt><dd>Split every face into smaller ones for more detail.</dd>
+<dt><b>Mask</b></dt><dd>An area protected from brushes.</dd>
+<dt><b>UV map</b></dt><dd>The model unfolded flat, so a picture can wrap around it.</dd>
+<dt><b>Texture</b></dt><dd>A picture wrapped onto a model.</dd>
+<dt><b>Normal map</b></dt><dd>A texture that fakes fine bumps without adding faces.</dd>
+<dt><b>Material</b></dt><dd>How a surface reacts to light: shiny, rough, metallic and so on.</dd>
+<dt><b>Rig, bone, weights</b></dt><dd>A skeleton, one of its pieces, and how strongly each bone moves each area.</dd>
+<dt><b>Key frame</b></dt><dd>A saved pose at a moment in time.</dd>
+<dt><b>Render</b></dt><dd>The finished image the app draws from your scene.</dd>
+<dt><b>Cel shading (NPR)</b></dt><dd>Flat, cartoon-style shading, as in anime.</dd>
+</dl>
+
+<p style="margin-top:48px;color:#86868b;font-size:14px">Character Studio · James Darryl Williams · <a href="privacy.html">Privacy policy</a> · <a href="support.html">Support</a></p>
+</body></html>
